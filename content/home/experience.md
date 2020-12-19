@@ -3,7 +3,7 @@
 widget = "experience"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 40  # Order that this section will appear.
+weight = 20  # Order that this section will appear.
 
 title = "Experience"
 subtitle = ""
@@ -18,27 +18,23 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
-  title = "CEO"
-  company = "GenCoin"
-  company_url = ""
-  location = "California"
-  date_start = "2017-01-01"
-  date_end = ""
-  description = """
-  Responsibilities include:
-  
-  * Analysing
-  * Modelling
-  * Deploying
+  title = "Data Science Intern"
+  company = "Lineage Logistics"
+  company_url = "https://www.lineagelogistics.com/news-stories/lineage-applied-sciences-team"
+  location = "San Francisco, California"
+  date_start = "2020-05-18"
+  date_end = "2020-08-07"
+  description = """Redesigned and implemented algorithmic load consolidation algorithms to reduce the number of trucks needed in food supply chain
+
   """
 
 [[experience]]
-  title = "Professor"
-  company = "University X"
+  title = "Undergraduate Teaching Assistant"
+  company = "Duke University" 
   company_url = ""
-  location = "California"
-  date_start = "2016-01-01"
-  date_end = "2016-12-31"
-  description = """Taught electronic engineering and researched semiconductor physics."""
+  location = "Durham, NC"
+  date_start = "2019-08-28"
+  date_end = "2020-05-04"
+  description = """Taught computer science fundamentals class - data structures and algorithms."""
 
 +++
